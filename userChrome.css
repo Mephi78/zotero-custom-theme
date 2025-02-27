@@ -1,0 +1,13 @@
+/* Define your preferred colors here: */
+:root {
+  --zct-menu-bg-color: #11acb8;      /* menubar background */
+  --zct-tag-color-1: #ff9900;        /* not in use */
+}
+
+/* =============================================================== */
+
+/* menubar */
+#tab-bar-container {
+  background: var(--zct-menu-bg-color) !important;
+}
+
