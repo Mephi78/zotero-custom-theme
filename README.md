@@ -32,9 +32,10 @@ Read more at ➡️ [userChrome.org][extUserChrome]
 
 > [!NOTE]
 > Full destination path:  
-`C:\Users\<User_name>\AppData\Roaming\Zotero\Zotero\Profiles\<user_profile>\chrome\userChrome.css`
+`C:\Users\<User_name>\AppData\Roaming\Zotero\Zotero\Profiles\<zotero_profile>\chrome\userChrome.css`
 
-> [!IMPORTANT] This installation guide applies to **Zotero 7** on **Windows**.
+> [!IMPORTANT]
+> This installation guide applies to **Zotero 7** on **Windows**.
 
 ### Install
 - in your Zotero instance open *Edit* → *Settings*
@@ -42,9 +43,9 @@ Read more at ➡️ [userChrome.org][extUserChrome]
 - when asked choose *Accept risk and continue*
 - in the search bar insert `toolkit.legacyUserProfileCustomizations.stylesheets`
 - double click the value `false` so it becomes `true`
-- close the dialog and Zotero
+- close all dialogues and Zotero
 - go to your Zotero user profile folder  
- `C:\Users\<User_name>\AppData\Roaming\Zotero\Zotero\Profiles\<user_profile>\`
+ `C:\Users\<User_name>\AppData\Roaming\Zotero\Zotero\Profiles\<zotero_profile>\`
 - create a folder named `chrome`
 - save `userChrome.css` file inside
 - open Zotero
@@ -56,7 +57,7 @@ Read more at ➡️ [userChrome.org][extUserChrome]
 - when asked choose *Accept risk and continue*
 - in the search bar insert `toolkit.legacyUserProfileCustomizations.stylesheets`
 - double click the value `true` so it becomes `false`
-- close the dialog and Zotero
+- close all dialogues and Zotero
 - delete your custom `userChrome.css` file from where you saved it before
 - open Zotero
 - everything back to normal
@@ -76,7 +77,7 @@ This work is distributed under the [GPLv3](LICENSE).
 <p align="right"><a href="#top">top ^</a></p>
 
 ## Attribution and Acknowledgment
-This work was inspired by [Rosmaninho's - Zotero Dark Theme](https://github.com/Rosmaninho/Zotero-Dark-Theme).  
+This work was inspired by [Rosmaninho's Zotero Dark Theme](https://github.com/Rosmaninho/Zotero-Dark-Theme).  
 Thanks to [Josmar Cristello](https://github.com/josmarcristello/Zotero-Material-Dark-Theme) for the hint about Zotero 7 stylesheets flag - made my day!
 <p align="right"><a href="#top">top ^</a></p>
 
