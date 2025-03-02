@@ -1,14 +1,21 @@
+/*
+ * Mephi's Zotero Custom Theme v0.1
+ *
+ * save as C:\Users\<User_profile>\AppData\Roaming\Zotero\Zotero\Profiles\<zotero_profile>\chrome\userChrome.css
+ * Zotero settings > Advanced > Config Editor: toolkit.legacyUserProfileCustomizations.stylesheets = true
+ */
+
 /* Define your preferred colors here: */
 :root {
   --zct-menu-bg-color: #11acb8;      /* menubar background */
 
-  /* Override original Zotero tag colors */
-  /* Note: colors in tag color picker are hardcoded in Zotero's ColorPicker class,
-   *       so you can change appearance of your actual tags, BUT the color picker
-   *       menu will stubbornly cling to Zotero's default tag colors
-   */
+  /* * * * * * * * * * * * * * *  TAG  COLORS  * * * * * * * * * * * * * * * * * * *
+   * Note: colors in tag color picker are hardcoded in Zotero's ColorPicker class, *
+   *       so you can change appearance of your actual tags, BUT the color picker  *
+   *       menu will stubbornly cling to Zotero's default tag colors               *
+   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
   
-  /* Zotero original */
+  /* Zotero original - for lookup, will be overridden in next step */
   --tag-red: #ff6666;
   --tag-orange: #f19837;
   --tag-gray: #999999;
@@ -33,7 +40,7 @@
 
 /* =============================================================== */
 
-/* menubar */
+/* menubar - colored */
 #tab-bar-container {
   background: var(--zct-menu-bg-color) !important;
 }
