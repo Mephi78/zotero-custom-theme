@@ -16,26 +16,26 @@
    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
   
   /* Zotero original - for lookup, will be overridden in next step */
-  --tag-red: #ff6666;
+  --tag-red:    #ff6666;
   --tag-orange: #f19837;
-  --tag-gray: #999999;
-  --tag-green: #5fb236;
-  --tag-teal: #009980;
-  --tag-blue: #2ea8e5;
+  --tag-gray:   #999999;
+  --tag-green:  #5fb236;
+  --tag-teal:   #009980;
+  --tag-blue:   #2ea8e5;
   --tag-indigo: #576dd9;
   --tag-purple: #a28ae5;
-  --tag-plum: #a6507b;
+  --tag-plum:   #a6507b;
 
   /* override original */
-  --tag-red: #e96262 !important;
+  --tag-red:    #e96262 !important;
   --tag-orange: #f89730 !important;
-  --tag-gray: #99CCCC !important;
-  --tag-green: #77c23a !important;
-  --tag-teal: #009980 !important;
-  --tag-blue: #2699d3 !important;
+  --tag-gray:   #99CCCC !important;
+  --tag-green:  #77c23a !important;
+  --tag-teal:   #009980 !important;
+  --tag-blue:   #2699d3 !important;
   --tag-indigo: #f7e81b !important;
   --tag-purple: #ee78bd !important;
-  --tag-plum: #aa072b !important;
+  --tag-plum:   #aa072b !important;
 }
 
 /* =============================================================== */
